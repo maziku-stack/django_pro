@@ -5,4 +5,4 @@ from . import views
 from django.http import  HttpResponse
 # Create your views here.
 def store(request):
-        return HttpResponse("hello world")
+        return render(request,"store.html")
